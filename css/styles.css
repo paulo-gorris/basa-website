@@ -1,3 +1,34 @@
-body {
-  color: red;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background:
+}
+/* navbar */
+.navbar{
+display: flex;
+align-items: center;
+padding: 20px;
+background: #334355;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin: 20px;
+  font-weight: 600;
+  color: #E8E8E3;
+}
+a {
+  text-decoration: none;
+  color: #E8E8E3;
 }
